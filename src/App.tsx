@@ -433,7 +433,7 @@ const poem = [
 const ENV_W = 320;
 const ENV_H = 200;
 const CARD_W = 272;
-const CARD_H = 520;
+const CARD_H = 540;
 
 export default function ValentineCard() {
   const [stage, setStage] = useState("idle");
