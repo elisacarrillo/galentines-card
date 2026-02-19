@@ -437,7 +437,7 @@ export default function ValentineCard() {
   const [stage, setStage] = useState("idle");
   const [cardAbove, setCardAbove] = useState(false);
   const [scale, setScale] = useState(1);
-  const audioRef = useRef(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     const update = () => {
@@ -448,8 +448,7 @@ export default function ValentineCard() {
     window.addEventListener("resize", update);
     return () => window.removeEventListener("resize", update);
   }, []);
-  const [poemLines, setPoemLines] = useState([]);
-
+  const [poemLines, setPoemLines] = useState<string[]>([]);
   const handleClick = () => {
     if (stage !== "idle") return;
     if (audioRef.current) {
@@ -769,7 +768,7 @@ export default function ValentineCard() {
   );
 }
 
-const S = {
+const S: { [key: string]: React.CSSProperties } = {
   root: {
     minHeight: "100dvh",
     width: "100vw",
