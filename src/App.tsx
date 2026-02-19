@@ -10,7 +10,9 @@ const poem = [
   "the light from your heart lamp",
   "",
   "you make me smile, you make me dance,",
-  "lets do brunch or go to france",
+  "lets do brunch or even france",
+  "every moment, big or small,",
+  "with you, my friend, i treasure it all"
 ];
 
 // const ENV_W = 320;
