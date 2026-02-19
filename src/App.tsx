@@ -770,7 +770,7 @@ export default function ValentineCard() {
 
 const S: { [key: string]: React.CSSProperties } = {
   root: {
-    minHeight: "100dvh",
+    minHeight: "100vh",
     width: "100vw",
     display: "flex",
     flexDirection: "column",
