@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 const poem = [
   "roses are red",
@@ -764,6 +765,7 @@ export default function ValentineCard() {
         }
         button:hover { background: rgba(192,57,43,0.07) !important; }
       `}</style>
+      <Analytics />
     </div>
   );
 }
