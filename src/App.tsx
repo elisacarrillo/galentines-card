@@ -780,6 +780,7 @@ const S: { [key: string]: React.CSSProperties } = {
     fontFamily: "'Playfair Display', serif",
     position: "relative",
     overflow: "hidden",
+    paddingBottom: "env(safe-area-inset-bottom)",
   },
 
   cardInner: {
