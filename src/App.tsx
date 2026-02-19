@@ -736,7 +736,7 @@ export default function ValentineCard() {
         🎵 To add music: place an MP3 in your /public folder and update the src below.
         e.g. src="/your-song.mp3"  or any public URL to an audio file.
       */}
-      <audio ref={audioRef} src="/music.mp3" loop preload="auto" />
+      <audio ref={audioRef} src="/music_trimmed.mp3" loop preload="auto" />
 
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=EB+Garamond:ital@1&display=swap');
