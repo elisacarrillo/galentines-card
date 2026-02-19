@@ -11,7 +11,7 @@ const poem = [
   "the light from your heart lamp",
   "",
   "you make me smile, you make me dance,",
-  "lets do brunch or even france",
+  "lets stay up late or go to france",
   "every moment, big or small,",
   "with you, my friend, i treasure it all"
 ];
